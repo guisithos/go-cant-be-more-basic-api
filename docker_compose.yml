@@ -1,0 +1,25 @@
+version: "3.9"
+
+services:
+  go-app:
+    container_name: go-cant-be-more-basic-api
+    image: go-cant-be-more-basic-api
+    build: .
+    ports:
+      - "3030:3030"
+    depends_on:
+      - go_database
+  go_db:
+    container_name: go_database
+    image: postgres:12
+    environment:
+      POSTGRES_PASSWORD: senhaSegura
+      POSTGRES_USER: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata: {}
