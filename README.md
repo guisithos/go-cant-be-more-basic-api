@@ -1,16 +1,18 @@
-Fast approach to demonstrate how to quickly set up a basic API using Go, Gonic (Gin), PostgreSQL, and Docker. Can't be more basic.
-Features
+Fast approach to demonstrate how to quickly set up a basic API using Go, Gonic (Gin), PostgreSQL, and Docker. 
+**Can't be more basic.**
 
+Features:
+```
     Basic: The API provides essential CRUD (Create, Read, Update, Delete) operations for products, the core of a RESTful API.
     Fast Setup:  Docker, to be quickly and consistently. 
     Efficient: Speed and minimalist.
     Scalable: PostgreSQL, robust and obviously scalable. 
-
+```
 Requirements
-
+```
     Docker
     Docker Compose
-
+```
 # Clone the Repository
 
 > sh
