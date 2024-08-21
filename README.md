@@ -16,7 +16,7 @@ Requirements
 # Clone the Repository
 
 > sh
-> git clone https://github.com/gusiithos/go-cant-be-more-basic.git
+> git clone https://github.com/guisithos/go-cant-be-more-basic.git
 > cd go-cant-be-more-basic-api
 
 # Environment Variables
